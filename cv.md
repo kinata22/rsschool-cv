@@ -49,4 +49,3 @@ Faculty: Radiotechnics
 * Ukrainian - free
 * English - B1
 * Polish - A1
-
