@@ -6,63 +6,134 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <h1>Natalia Kirilenko</h1>
-    <h2>Contacts</h2>
-    <ul>
-        <li>Location: Gdynia, Poland (before 24/02/22 - Kyiv, Ukraine)</li>
-        <li>Email: n07@ukr.net</li>
-        <li>LinkedIn: <a href="https://www.linkedin.com/in/nataliekirilenko/">https://www.linkedin.com/in/nataliekirilenko/</a></li>
-        <li>GitHub: <a href="https://github.com/kinata22">https://github.com/kinata22</a></li>
-        <li>Codewars: <a href="https://www.codewars.com/users/kinata22">https://www.codewars.com/users/kinata22</a></li>
-        <li>Discord: kinatapro</li>
-    </ul>
+    <div class="container">
+      <header>
+        <nav class="nav">
+          <ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#intro">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacts">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#examples">Code examples</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experience">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#education">Education</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#languages">Languages</a>
+            </li>          
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
 
-    <h2>About me</h2>
-    <p>Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
-    Have experience in web-developing, database design, graphics design, hardware programming, computer-aided designing and various engineering software.</p>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <section id="intro" class="intro">
+          <img src="kn-portrait.jpg" alt="My photo" width="200px;" />
+          <h1>Hello, I'm Natalia Kirilenko</h1>
+          <p>Developer</p>
+        </section>
+  
+        <section id="about">
+          <h2>About me</h2>
+          <p>Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
+          Have experience in web-developing, database design, graphics design, hardware programming, computer-aided designing and various engineering software.</p>
+          <p>A few years of break in work as a developer, now I want to return to IT.</p>
+        </section>
+  
+        <section id="contacts">
+          <h2>Contacts</h2>
+          <ul>
+              <li>Location: Gdynia, Poland (before 24/02/22 - Kyiv, Ukraine)</li>
+              <li>Email: n07@ukr.net</li>
+              <li>LinkedIn: <a href="https://www.linkedin.com/in/nataliekirilenko/">https://www.linkedin.com/in/nataliekirilenko/</a></li>
+              <li>GitHub: <a href="https://github.com/kinata22">https://github.com/kinata22</a></li>
+              <li>Codewars: <a href="https://www.codewars.com/users/kinata22">https://www.codewars.com/users/kinata22</a></li>
+              <li>Discord: kinatapro</li>
+          </ul>
+        </section>
+  
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>Front-end: HTML/CSS, JavaScript</li>
+            <li>Back-end: ASP.NET, VB, C#, MS SQL Server, MongoDB, PHP, Perl</li>
+            <li>Desktop: Visual Studio (VB, C#), Delphi</li>
+            <li>Version control: TortoiseSVN, GIT, Github</li>
+            <li>Other: Jira, teamwork experience, SCRUM, deadlines, remote work.</li>
+          </ul>
+        </section>
+  
+        <section id="examples" class="examples">
+          <h2>Code example</h2>
+          <pre>
+            <code>
+              function makeNegative(num) {
+                return (num &lt;= 0) ? num : -num;
+              }
+            </code>
+          </pre>
+        </section>
 
-    <p>A few years of break in work as a developer, now I want to return to IT.</p>
+        <section id="experience" class="experience">
+          <h2>Experience</h2>
+          <ul>
+            <li><b>1994-present</b> Teacher of IT</li>
+            <li><b>2007-2015</b> Senior Developer</li>
+            <li><b>2002-2007</b> Web Developer, Graphics Designer, Programmer</li>
+            <li><b>1998-2002</b> Engineer</li>
+          </ul>
+        </section>
 
-    <h2>Skills</h2>
-    <ul>
-      <li>Front-end: HTML/CSS, JavaScript</li>
-      <li>Back-end: ASP.NET, VB, C#, MS SQL Server, MongoDB, PHP, Perl</li>
-      <li>Desktop: Visual Studio (VB, C#), Delphi</li>
-      <li>Version control: TortoiseSVN, GIT, Github</li>
-      <li>Other: Jira, teamwork experience, SCRUM, deadlines, remote work.</li>
-    </ul>
-    <h2>Code example</h2>
-    <code>
-function makeNegative(num) {<br>
-&nbsp;&nbsp;return (num &lt;= 0) ? num : -num;<br>
-}
-    </code>
+        <section id="education" class="education">
+          <h2>Education</h2>
+          <p>National Technical University of Ukraine 'Kyiv Polytechnic Institute'<br>
+           Faculty: Radiotechnics</p>
+        </section>
 
-    <h2>Experience</h2>
-    <ul>
-      <li><b>1994-present</b> Teacher of IT</li>
-      <li><b>2007-2015</b> Senior Developer</li>
-      <li><b>2002-2007</b> Web Developer, Graphics Designer, Programmer</li>
-      <li><b>1998-2002</b> Engineer</li>
-    </ul>
+        <section id="languages" class="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li>Russian - native</li>
+            <li>Ukrainian - free</li>
+            <li>English - B1</li>
+            <li>Polish - A1</li>
+          </ul>
+        </section>
 
-    <h2>Education</h2>
-    <p>National Technical University of Ukraine 'Kyiv Polytechnic Institute'<br>
-     Faculty: Radiotechnics</p>
+        <section id="projects" class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li><b>First Charter</b> <a href="http://first-charter.nata.cv.ua/">http://first-charter.nata.cv.ua/</a></li>
+            <li><b>Organizer of competitions</b> <a href="http://konkurs.sfera.org.ua/">http://konkurs.sfera.org.ua/</a></li>
+            <li><b>A yacht sail setting simulator</b> <a href="http://yachtcollege.vitsail.com/veter.php?id=57">http://yachtcollege.vitsail.com/veter.php?id=57</a></li>
+          </ul>
+        </section>
+      </main>
+      
+      <footer>
+        <div class="footer-icons">
+          <a class="github-icon" href="https://github.com/kinata22"  target="_blank">https://github.com/kinata22</a>
+          <span>2022</span>
+          <a class="rs-icon" href="https://rs.school/js/" target="_blank"><img width="100" src="https://rs.school/images/rs_school_js.svg" alt="RS School icon"/></a>
+        </div>
+      </footer>
 
-    <h2>Projects</h2>
-    <ul>
-      <li><b>First Charter</b> <a href="http://first-charter.nata.cv.ua/">http://first-charter.nata.cv.ua/</a></li>
-      <li><b>Organizer of competitions</b> <a href="http://konkurs.sfera.org.ua/">http://konkurs.sfera.org.ua/</a></li>
-      <li><b>A yacht sail setting simulator</b> <a href="http://yachtcollege.vitsail.com/veter.php?id=57">http://yachtcollege.vitsail.com/veter.php?id=57</a></li>
-    </ul>
-
-    <h2>Languages</h2>
-    <ul>
-      <li>Russian - native</li>
-      <li>Ukrainian - free</li>
-      <li>English - B1</li>
-      <li>Polish - A1</li>
-    </ul>
+    </div>
+    
   </body>
 </html>
