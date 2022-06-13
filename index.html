@@ -11,54 +11,40 @@
         <nav class="nav">
           <ul>
             <li class="nav-item">
-              <a class="nav-link" href="#intro">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacts">Contacts</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#examples">Code examples</a>
+              <a class="nav-link" href="#profile">Profile info</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#experience">Experience</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#work">Work history</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#education">Education</a>
             </li>  
             <li class="nav-item">
-              <a class="nav-link" href="#languages">Languages</a>
-            </li>          
-            <li class="nav-item">
-              <a class="nav-link" href="#projects">Projects</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-
           </ul>
         </nav>
       </header>
-      <main>
-        <section id="intro" class="intro">
-          <img src="kn-portrait.jpg" alt="My photo" width="200px;" />
-          <h1>Hello, I'm Natalia Kirilenko</h1>
-          <p>Developer</p>
+      <main class="main">
+        <section id="intro">
+          <img src="kn-portrait.jpg" alt="My photo" width="200" />
+          <h1>Natalia Kirilenko</h1>
+          <h2>Front-end Developer</h2>
         </section>
   
-        <section id="about">
-          <h2>About me</h2>
+        <section id="profile">
+          <h2>Profile Info</h2>
+          <h3>About Me</h3>
           <p>Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
           Have experience in web-developing, database design, graphics design, hardware programming, computer-aided designing and various engineering software.</p>
           <p>A few years of break in work as a developer, now I want to return to IT.</p>
-        </section>
-  
-        <section id="contacts">
-          <h2>Contacts</h2>
-          <ul>
-              <li>Location: Gdynia, Poland (before 24/02/22 - Kyiv, Ukraine)</li>
+
+          <h3>Contacts</h3>
+          <ul class="contacts">
+              <li>Location: Gdynia, Poland</li>
               <li>Email: n07@ukr.net</li>
               <li>LinkedIn: <a href="https://www.linkedin.com/in/nataliekirilenko/">https://www.linkedin.com/in/nataliekirilenko/</a></li>
               <li>GitHub: <a href="https://github.com/kinata22">https://github.com/kinata22</a></li>
@@ -67,8 +53,9 @@
           </ul>
         </section>
   
-        <section id="skills" class="skills">
-          <h2>Skills</h2>
+        <section id="experience" class="experience">
+          <h2>Experience</h2>
+          <h3>Skills</h3>
           <ul>
             <li>Front-end: HTML/CSS, JavaScript</li>
             <li>Back-end: ASP.NET, VB, C#, MS SQL Server, MongoDB, PHP, Perl</li>
@@ -76,21 +63,18 @@
             <li>Version control: TortoiseSVN, GIT, Github</li>
             <li>Other: Jira, teamwork experience, SCRUM, deadlines, remote work.</li>
           </ul>
-        </section>
-  
-        <section id="examples" class="examples">
-          <h2>Code example</h2>
-          <pre>
-            <code>
-              function makeNegative(num) {
-                return (num &lt;= 0) ? num : -num;
-              }
-            </code>
-          </pre>
+
+          <h3>Languages</h3>
+          <ul class="language">
+            <li>Russian - native</li>
+            <li>Ukrainian - free</li>
+            <li>English - B1</li>
+            <li>Polish - A1</li>
+          </ul>
         </section>
 
-        <section id="experience" class="experience">
-          <h2>Experience</h2>
+        <section id="work" class="work">
+          <h2>Work History</h2>
           <ul>
             <li><b>1994-present</b> Teacher of IT</li>
             <li><b>2007-2015</b> Senior Developer</li>
@@ -105,18 +89,20 @@
            Faculty: Radiotechnics</p>
         </section>
 
-        <section id="languages" class="languages">
-          <h2>Languages</h2>
-          <ul>
-            <li>Russian - native</li>
-            <li>Ukrainian - free</li>
-            <li>English - B1</li>
-            <li>Polish - A1</li>
-          </ul>
-        </section>
+        <section id="portfolio" class="portfolio">
+          <h2>Portfolio</h2>
+          <h3>Code example</h3>
+          <div class="code">
+            <pre>
+              <code>
+                function makeNegative(num) {
+                  return (num &lt;= 0) ? num : -num;
+                }
+              </code>
+            </pre>
+          </div>
 
-        <section id="projects" class="projects">
-          <h2>Projects</h2>
+          <h3>Projects</h3>
           <ul>
             <li><b>First Charter</b> <a href="http://first-charter.nata.cv.ua/">http://first-charter.nata.cv.ua/</a></li>
             <li><b>Organizer of competitions</b> <a href="http://konkurs.sfera.org.ua/">http://konkurs.sfera.org.ua/</a></li>
@@ -125,9 +111,9 @@
         </section>
       </main>
       
-      <footer>
+      <footer class="footer">
         <div class="footer-icons">
-          <a class="github-icon" href="https://github.com/kinata22"  target="_blank">https://github.com/kinata22</a>
+          <a class="github-icon" href="https://github.com/kinata22"  target="_blank">GitHub</a>
           <span>2022</span>
           <a class="rs-icon" href="https://rs.school/js/" target="_blank"><img width="100" src="https://rs.school/images/rs_school_js.svg" alt="RS School icon"/></a>
         </div>
