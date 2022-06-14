@@ -7,69 +7,55 @@
   </head>
   <body>
     <div class="container">
-      <header>
+      <header class="header">
         <nav class="nav">
-          <ul>
-            <li class="nav-item">
-              <a class="nav-link" href="#profile">Profile info</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#work">Work history</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
-            </li>  
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
+          <ul class="nav-list">
+            <li class="nav-item"><a class="nav-link" href="#profile">Profile info</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#work">Work history</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>  
+            <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
           </ul>
         </nav>
       </header>
       <main class="main">
-        <section id="intro">
-          <img src="kn-portrait.jpg" alt="My photo" width="200" />
-          <h1>Natalia Kirilenko</h1>
-          <h2>Front-end Developer</h2>
+        <section id="intro" class="intro">
+          <img src="kn-portrait.jpg" alt="My photo" />
+          <h1>Natalia Kyrylenko</h1>
+          <h2>Front-End Developer</h2>
         </section>
   
-        <section id="profile">
+        <section id="profile" class="profile">
           <h2>Profile Info</h2>
-          <h3>About Me</h3>
-          <p>Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
-          Have experience in web-developing, database design, graphics design, hardware programming, computer-aided designing and various engineering software.</p>
-          <p>A few years of break in work as a developer, now I want to return to IT.</p>
+          <div class="textcols-item">
+            <h3>About Me</h3>
+            <p>Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
+            Have experience in web-developing, database design, graphics design, hardware programming, computer-aided designing and various engineering software.</p>
+            <p>A few years of break in work as a developer, now I want to return to IT.</p>
+          </div>
 
-          <h3>Contacts</h3>
-          <ul class="contacts">
-              <li>Location: Gdynia, Poland</li>
-              <li>Email: n07@ukr.net</li>
-              <li>LinkedIn: <a href="https://www.linkedin.com/in/nataliekirilenko/">https://www.linkedin.com/in/nataliekirilenko/</a></li>
-              <li>GitHub: <a href="https://github.com/kinata22">https://github.com/kinata22</a></li>
-              <li>Codewars: <a href="https://www.codewars.com/users/kinata22">https://www.codewars.com/users/kinata22</a></li>
-              <li>Discord: kinatapro</li>
-          </ul>
+          <div class="textcols-item">
+            <h3>Contacts</h3>
+            <ul class="contacts">
+                <li>Location: Gdynia, Poland</li>
+                <li>Email: n07@ukr.net</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/nataliekirilenko/">https://www.linkedin.com/in/nataliekirilenko/</a></li>
+                <li>GitHub: <a href="https://github.com/kinata22">https://github.com/kinata22</a></li>
+                <li>Codewars: <a href="https://www.codewars.com/users/kinata22">https://www.codewars.com/users/kinata22</a></li>
+                <li>Discord: @kinata22</li>
+            </ul>
+          </div>
         </section>
   
-        <section id="experience" class="experience">
-          <h2>Experience</h2>
-          <h3>Skills</h3>
-          <ul>
+        <section id="skills" class="skills">
+          <h2>Skills</h2>
+          <ul class="skills">
             <li>Front-end: HTML/CSS, JavaScript</li>
             <li>Back-end: ASP.NET, VB, C#, MS SQL Server, MongoDB, PHP, Perl</li>
             <li>Desktop: Visual Studio (VB, C#), Delphi</li>
             <li>Version control: TortoiseSVN, GIT, Github</li>
             <li>Other: Jira, teamwork experience, SCRUM, deadlines, remote work.</li>
-          </ul>
-
-          <h3>Languages</h3>
-          <ul class="language">
-            <li>Russian - native</li>
-            <li>Ukrainian - free</li>
-            <li>English - B1</li>
-            <li>Polish - A1</li>
           </ul>
         </section>
 
@@ -85,8 +71,12 @@
 
         <section id="education" class="education">
           <h2>Education</h2>
+          <h3>University</h3>
           <p>National Technical University of Ukraine 'Kyiv Polytechnic Institute'<br>
            Faculty: Radiotechnics</p>
+
+           <h3>Courses</h3>
+           <p>Rolling Scopes School, JavaScript/Front-end</p>
         </section>
 
         <section id="portfolio" class="portfolio">
@@ -95,9 +85,9 @@
           <div class="code">
             <pre>
               <code>
-                function makeNegative(num) {
-                  return (num &lt;= 0) ? num : -num;
-                }
+function makeNegative(num) {
+  return (num &lt;= 0) ? num : -num;
+}
               </code>
             </pre>
           </div>
@@ -107,6 +97,16 @@
             <li><b>First Charter</b> <a href="http://first-charter.nata.cv.ua/">http://first-charter.nata.cv.ua/</a></li>
             <li><b>Organizer of competitions</b> <a href="http://konkurs.sfera.org.ua/">http://konkurs.sfera.org.ua/</a></li>
             <li><b>A yacht sail setting simulator</b> <a href="http://yachtcollege.vitsail.com/veter.php?id=57">http://yachtcollege.vitsail.com/veter.php?id=57</a></li>
+          </ul>
+        </section>
+
+        <section id="languages" class="languages">
+          <h2>Languages</h2>
+          <ul class="language">
+            <li>Russian - native</li>
+            <li>Ukrainian - fluent</li>
+            <li>English - B1</li>
+            <li>Polish - A1</li>
           </ul>
         </section>
       </main>
