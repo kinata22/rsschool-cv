@@ -6,7 +6,7 @@
 * LinkedIn: https://www.linkedin.com/in/nataliekirilenko/
 * GitHub: https://github.com/kinata22
 * Codewars: https://www.codewars.com/users/kinata22
-* Discord: kinatapro
+* Discord: kinata22
 
 ## About me
 Many years in IT. Over 25 years of experience as a Software Developer and as a teacher of informatics.
