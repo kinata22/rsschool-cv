@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth; 
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(80, 80, 80);
+    font-size: 36px;
+}
+h2 {
+    color:rgb(90, 90, 90);
+    font-size: 26px;
+}
+h3 {
+    color:#aaa;
+    font-size: 22px;
+}
+ul {
+    padding-left: 0;
+}
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main {
+    padding-bottom: 3em;
+}
+.intro h2 {
+    font-size: 1.2em;
+}
+
+.nav {
+    line-height: 2.5em;
+    background-color: #eee;
+}
+.nav-list {
+    list-style: none;
+    margin: 0;
+}
+.nav-item {
+    display: inline-block;
+    margin-right: 5px;
+  }
+.nav-link {
+    text-decoration: none;
+    background:#30A8E6; 
+    color:#fff;
+    padding: 10px;
+    font-family: Arial;
+    border-radius: 4px;
+    line-height: 70px;
+}
+section {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.profile {
+    white-space: nowrap;
+    background-color: #eef;
+}
+.textcols-item {
+	white-space: normal;	
+	display: inline-block;
+	width: 48%;
+	vertical-align: top;
+    padding: 5px;
+}
+.textcols .textcols-item:first-child {
+	margin-right: 4%;
+}
+.contacts {
+    text-align: left;
+    margin-left: 10%;
+}
+.skills {
+    display: inline-block;
+}
+.skills li {
+    list-style-type: square;
+    text-align: left;
+}
+.language {
+    text-align: center;
+}
+.code {
+    display: inline-block;
+    text-align: left;
+}
+.footer {
+    width: 100%;
+    margin: auto;
+    background-color: #ddd;
+    padding: 20px 5px;
+}
+.footer-icons a,span {
+    padding-left: 3em;
+    padding-right: 3em;
+}
