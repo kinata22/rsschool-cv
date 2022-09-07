@@ -48,6 +48,12 @@ Rolling Scopes School, JavaScript/Front-end (Stage 0 finished in 2022, position 
 * **A yacht sail setting simulator** http://yachtcollege.vitsail.com/veter.php?id=57
 
 
+## Projects
+* **First Charter** http://first-charter.nata.cv.ua/
+* **Organizer of competitions** http://konkurs.sfera.org.ua/
+* **A yacht sail setting simulator** http://yachtcollege.vitsail.com/veter.php?id=57
+
+
 ## Languages
 * Ukrainian - free
 * Russian - native
